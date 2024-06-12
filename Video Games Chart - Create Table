@@ -1,0 +1,12 @@
+CREATE TABLE vgcharts (
+    title        TEXT,
+    console      TEXT,
+    genre        TEXT,
+    publisher    TEXT,
+    developer    TEXT,
+    critic_score NUMERIC,
+    total_sales  NUMERIC,
+    na_sales     NUMERIC,
+    jp_sales     NUMERIC,
+    release_date TEXT
+);
